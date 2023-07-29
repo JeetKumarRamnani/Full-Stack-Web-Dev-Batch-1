@@ -1,4 +1,4 @@
-### Lecture 1: Introduction to HTML
+### Lecture 5: Introduction to HTML
 
 #### Topics Covered:
 
