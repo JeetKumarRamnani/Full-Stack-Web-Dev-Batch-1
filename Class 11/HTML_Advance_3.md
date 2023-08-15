@@ -1,4 +1,4 @@
-# Lecture 10: HTML FORM
+# Lecture 11: HTML FORM
 
 ## Table of Contents
 
@@ -146,12 +146,6 @@ The `<textarea>` tag creates a multi-line text input area for longer text inputs
 ### \<button\>
 
 The `<button>` tag creates clickable buttons that can trigger various actions within the form.
-
----
-
-Feel free to use this Markdown template for your lecture on HTML forms.
-
-## HTML Form Elements
 
 ### \<form\>
 
@@ -331,5 +325,3 @@ Creates a multi-line text input area.
 Creates clickable buttons with different purposes.
 
 ---
-
-Feel free to incorporate these examples into your lecture to provide hands-on understanding of each HTML form element and their use cases.
