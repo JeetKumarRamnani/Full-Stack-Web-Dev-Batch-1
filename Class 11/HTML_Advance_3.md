@@ -23,6 +23,8 @@
      - Radio
      - Date
      - Submit
+     - image
+     - file
    - `<select>`
    - `<datalist>`
    - `<option>`
@@ -59,21 +61,86 @@ Form validation is the process of ensuring that the data entered into a form mee
 
 - `<input>`: The `<input>` element is used to create various types of input fields within a form.
 
-  - Text: `<input type="text">` creates a single-line text input field.
+  # Input Types
 
-  - Password: `<input type="password">` creates a password input field that hides the entered characters.
+  - **Text**
 
-  - Email: `<input type="email">` creates an input field for email addresses, with built-in validation for proper email format.
+    ```html
+    <input type="text" name="username" />
+    ```
 
-  - Number: `<input type="number">` creates an input field for numeric values.
+    A single-line text input field for general text entry.
 
-  - Checkbox: `<input type="checkbox">` creates a checkbox that can be checked or unchecked by the user.
+  - **Password**
 
-  - Radio: `<input type="radio">` creates a radio button, allowing users to select one option from a group.
+    ```html
+    <input type="password" name="password" />
+    ```
 
-  - Date: `<input type="date">` creates a date input field with a calendar picker.
+    A text input field where the entered characters are masked for password entry.
 
-  - Submit: `<input type="submit">` creates a button that submits the form when clicked.
+  - **Email**
+
+    ```html
+    <input type="email" name="email" required />
+    ```
+
+    An input field specifically for entering an email address, with built-in validation and the "required" attribute.
+
+  - **Number**
+
+    ```html
+    <input type="number" name="quantity" min="1" max="100" />
+    ```
+
+    An input field for entering numeric values, with optional minimum and maximum values.
+
+  - **Checkbox**
+
+    ```html
+    <input type="checkbox" name="subscribe" value="yes" />
+    ```
+
+    A checkbox that allows users to select one or multiple options, with the "value" attribute defining the value when checked.
+
+  - **Radio**
+
+    ```html
+    <input type="radio" name="gender" value="male" /> Male
+    <input type="radio" name="gender" value="female" /> Female
+    ```
+
+    Radio buttons for selecting a single option from a group, with the same "name" attribute grouping them together.
+
+  - **Date**
+
+    ```html
+    <input type="date" name="dob" />
+    ```
+
+    An input field for selecting a date from a date picker.
+
+  - **Submit**
+
+    ```html
+    <input type="submit" value="Submit" />
+    ```
+
+    A button that submits the form when clicked, with the "value" attribute defining the button text.
+
+  - **Image**
+
+    ```html
+    <input type="image" src="submit-button.png" alt="Submit" />
+    ```
+
+    An image that acts as a clickable button to submit the form, with the "src" attribute specifying the image source.
+
+  - **File**
+    ```html
+    <input type="file" name="upload" />
+    ```
+    An input field that allows users to upload files from their device, with the "name" attribute for form data handling.
 
 - `<select>`: The `<select>` element creates a dropdown list from which users can choose one option.
 
