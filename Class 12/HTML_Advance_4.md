@@ -1,7 +1,3 @@
-Absolutely, I've added more details to the sections that needed further explanation and arranged them accordingly:
-
----
-
 # Lecture 12: HTML Layout Elements - Div, Span, Semantic Elements And How Data Is Submitted To Server
 
 ## Table of Contents
