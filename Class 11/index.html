@@ -1,12 +1,135 @@
-<form>
-    <label>
-        <input type="checkbox" name="interest" value="reading"> Reading
-    </label>
-    <label>
-        <input type="checkbox" name="interest" value="writing"> Writing
-    </label>
-    <label>
-        <span> Coding</span> <input type="checkbox" name="interest" value="coding">
-    </label>
-    <input type="submit" value="Submit">
-</form>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Data</title>
+</head>
+
+<body>
+    <!-- 
+    <form>
+
+        <!-- <fieldset>
+            <legend>
+                User 1
+            </legend>
+            <label for="">Username: </label><input type="text">
+            <br />
+            <label for="">Password: </label><input type="password">
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                User 2
+            </legend>
+            <label for="">Username: </label><input type="text">
+            <br />
+            <label for="">Password: </label><input type="password">
+        </fieldset> -->
+
+    <!-- 
+        <input type="text" required minlength="5" maxlength="10" value="Jeet Kumar">
+        <input type="submit"> -->
+
+
+
+
+
+    <!-- </form> -->
+
+    <form action="./datasubmit.html">
+
+        <fieldset>
+            <legend>User Registration Form</legend>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" autofocus>
+            <br>
+            <br>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName">
+
+            <br>
+            <br>
+            <label for="age">Age:</label>
+            <input type="number" id="age" min="1" max="5">
+            <br>
+            <br>
+            <label>Gender:</label>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" checked>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender">
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="gender">
+
+            <br>
+            <br>
+            <label>Language:</label>
+            <label for="urdu">Urdu</label>
+            <input type="checkbox" id="urdu" name="urdu">
+            <label for="English">English</label>
+            <input type="checkbox" id="english" name="english">
+            <label for="chinese">Chinese</label>
+            <input type="checkbox" id="chinese" name="chinese" checked>
+            <br><br>
+            <label for="adress">Adress</label>
+            <textarea name="adress" id="adress" cols="20" rows="5">
+
+
+
+
+            </textarea>
+            <br><br>
+
+            <label for="cars">Choose a car:</label>
+            <select id="cars" name="cars">
+
+                <option value="" disabled selected>Select And Option Below</option>
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+            </select>
+
+            <br />
+
+            <label for="browser">Browser:</label>
+            <input list="browsers" id="browser" name="browser" />
+            <datalist id="browsers">
+                <option value="chrome"></option>
+                <option value="firefox"></option>
+                <option value="safari"></option>
+                <option value="edge"></option>
+            </datalist><br />
+
+            <label>
+                Date Of Birth<input type="date">
+            </label>
+
+            <br>
+            <label>
+                Upload Your Image:<input type="file">
+            </label>
+            <br>
+            <input type="submit" value="Click Me To Submit Your Data">
+
+        </fieldset>
+
+
+
+
+    </form>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
