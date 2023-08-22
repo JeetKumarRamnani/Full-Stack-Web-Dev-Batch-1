@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Result</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100">
+    <div class="flex justify-center items-center h-screen">
+        <div class="bg-white p-8 rounded shadow-md w-96">
+            <h1 class="text-2xl font-semibold mb-4">Registration Result</h1>
+
+            <div id="result" class="mb-4">
+                <p>Form data received:</p>
+                <!-- Data will be displayed here dynamically -->
+            </div>
+
+            <a href="submit.html" class="text-blue-500 hover:underline">Back to Form</a>
+        </div>
+    </div>
+
+    <script>
+        // Get the form data from the URL search parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const username = urlParams.get('username');
+        const email = urlParams.get('email');
+
+        if (username && email) {
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerHTML = `<p class="mb-1"><strong>Username:</strong> ${username}</p><p><strong>Email:</strong> ${email}</p>`;
+        } else {
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerHTML = `<p class="text-red-500">Incomplete or missing data.</p>`;
+        }
+    </script>
+</body>
+
+</html>
