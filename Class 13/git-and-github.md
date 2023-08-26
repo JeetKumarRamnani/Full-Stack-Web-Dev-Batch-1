@@ -62,6 +62,8 @@
    Some of the most commonly used Git commands include:
 
    - `git init`: Initializes a new Git repository.
+   - `git status`
+   - `git log`
    - `git add`: Stages changes for commit.
    - `git commit`: Creates a snapshot of staged changes.
    - `git push`: Sends committed changes to a remote repository.
