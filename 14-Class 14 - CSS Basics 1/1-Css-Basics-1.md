@@ -80,6 +80,34 @@ CSS rules consist of selectors and declaration blocks containing property-value 
 
 Styles can be embedded using inline styles, internal styles in the `<head>` section, or external styles linked through the `<link>` element.
 
+- **Inline CSS:**
+  You can include CSS directly within the HTML elements using the `style` attribute.
+
+  ```html
+  <p style="color: blue;">This is a blue text.</p>
+  ```
+
+- **Internal CSS:**
+  You can embed CSS within the `<style>` tags in the `<head>` section of your HTML document.
+
+  ```html
+  <head>
+    <style>
+      p {
+        color: red;
+      }
+    </style>
+  </head>
+  ```
+
+- **External CSS:**
+  You can create a separate CSS file and link it to your HTML using the `<link>` element.
+  ```html
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  ```
+
 ### 8. Practical Experience: Playing with CSS
 
 **Hands-On CSS Exploration**
