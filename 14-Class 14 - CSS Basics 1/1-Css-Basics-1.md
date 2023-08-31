@@ -51,22 +51,27 @@ By considering these factors, the browser determines the final style that should
 
 **From CSS1 to CSS3**
 
-CSS was proposed in 1994 and became a W3C recommendation in 1996 with CSS1. CSS2 introduced advanced features, and CSS3 brought enhancements like animations and rounded corners.
-Here is a brief history of CSS in bullet points:
+The history of CSS can be traced back to 1994, when Håkon Wium Lie, a Norwegian computer scientist, proposed the idea of a style sheet language for the web. At the time, HTML was the only way to structure and format web pages, but it was not well-suited for styling. HTML tags could be used to change the font, size, and color of text, but they could not be used to control more complex aspects of layout, such as margins, padding, and borders.
 
-- **1994:** CSS is proposed by Håkon Wium Lie, who worked at CERN. Together with Bert Bos, Lie submits the first CSS proposal.
-- **1996:** CSS1 becomes an official recommendation by the World Wide Web Consortium (W3C), providing basic styling capabilities for HTML documents.
-- **1998:** CSS2 is introduced, offering more advanced features like positioning, layout, and improved control over elements.
-- **2001:** The CSS2.1 specification is published as a Candidate Recommendation, refining and clarifying CSS2.
-- **2004-2007:** Development of CSS3 begins, introducing a modular approach to adding new features incrementally.
-- **2007:** CSS3 Selectors become a W3C recommendation, providing more powerful ways to target and style elements.
-- **2011-2012:** Various modules of CSS3 are finalized and recommended, including Color, Text, Backgrounds, Borders, and Transitions.
-- **2014:** CSS Flexible Box Layout (Flexbox) becomes a W3C recommendation, enabling advanced layout options.
-- **2016:** CSS Grid Layout becomes a W3C recommendation, introducing another powerful layout system for web pages.
-- **2020:** Selectors Level 4 and CSS Color Level 4 are published as working drafts, showcasing ongoing development.
-- **Present:** CSS continues to evolve with ongoing working drafts, discussions, and implementations in modern web browsers.
+Lie's proposal for CSS was met with enthusiasm by the web development community, and the first version of CSS, CSS1, was released in 1996. CSS1 was a simple language, but it provided a much-needed way to style web pages. It allowed developers to control the appearance of their pages without having to modify the HTML code.
 
-The history of CSS is marked by a series of specifications and updates that have gradually transformed it from a simple styling language to a powerful tool for creating intricate and responsive designs on the web.
+In 1998, CSS2 was released. CSS2 was a major revision of CSS1, adding many new features, such as support for different media types (such as print and screen), floating elements, and positioning. CSS2 also introduced the concept of cascading, which allows multiple style sheets to be applied to a single page.
+
+Since the release of CSS2, there have been several minor revisions, such as CSS2.1 and CSS2.2. However, the next major version of CSS, CSS3, is still under development. CSS3 is a much more comprehensive language than CSS2, adding features such as gradients, animations, and transforms.
+
+CSS has become an essential part of web development. It is used by web developers to control the appearance of their pages, making them more visually appealing and user-friendly. CSS is also used by web designers to create custom layouts and designs.
+
+Here is a timeline of the major milestones in the history of CSS:
+
+- 1994: Håkon Wium Lie proposes the idea of CSS.
+- 1996: CSS1 is released.
+- 1998: CSS2 is released.
+- 2007: CSS2.1 is released.
+- 2011: CSS3 is released.
+- 2017: CSS3 Module 1 (Basic) is finalized.
+- 2021: CSS3 Module 2 (Layout) is finalized.
+
+CSS is still under development, and new features are being added all the time. It is a powerful and versatile language that has revolutionized the way web pages are designed and developed.
 
 ### 6. Syntax of Writing CSS
 
