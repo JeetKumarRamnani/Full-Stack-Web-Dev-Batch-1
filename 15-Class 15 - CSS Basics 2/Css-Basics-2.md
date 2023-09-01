@@ -2,8 +2,6 @@
 
 ### Topics Covered:
 
-Certainly, I'll keep the topics in the original order as you requested:
-
 1. **Which Is The Best Way To Write CSS And Why (inline, internal, or external)?**
 2. **What Do You Mean By Selectors In CSS?**
 3. **Purpose Of Selectors**
