@@ -9,10 +9,7 @@
 5. **Most Used Selectors In CSS**
 6. **How To Add Comments In CSS**
 7. **Single And Multiline Comments In CSS**
-8. **Color Property And Its Values (RGB, HEX, HSL)**
-9. **Background Properties And Their Values**
-10. **Shorthand Property What Does It Mean**
-11. **Background Shorthand Property**
+
 
 ## Explanations:
 
@@ -129,40 +126,3 @@
      comment
      */
      ```
-
-8. **Color Property And Its Values (RGB, HEX, HSL)**
-
-   The `color` property in CSS is used to set the text color of an element. You can specify colors using various formats:
-
-   - **RGB (Red, Green, Blue):** This format uses values between 0 and 255 for each color channel. For example, `color: rgb(255, 0, 0);` sets the text color to red.
-
-   - **HEX (Hexadecimal):** This format represents colors using a 6-digit code preceded by a `#` symbol. For example, `color: #FF0000;` sets the text color to red.
-
-   - **HSL (Hue, Saturation, Lightness):** This format allows you to specify colors using hue, saturation, and lightness values. For example, `color: hsl(0, 100%, 50%);` sets the text color to red.
-
-9. **Background Properties And Their Values**
-
-   In CSS, you can control an element's background using properties like `background-color`, `background-image`, `background-repeat`, and `background-position`. You can use these properties to set the background color, add images, control image repetition, and position the background.
-
-10. **Shorthand Property What Does It Mean**
-
-    A shorthand property in CSS allows you to set multiple related properties in a single declaration. For example, the `background` shorthand property combines `background-color`, `background-image`, `background-repeat`, and other background-related properties into one concise declaration.
-
-11. **Background Shorthand Property**
-
-    The `background` shorthand property allows you to set all background-related properties in one declaration. It has the following syntax:
-
-    ```css
-    background: [background-color] [background-image] [background-repeat]
-      [background-attachment] [background-position];
-    ```
-
-    Example:
-
-    ```css
-    background: #ff0000 url("image.jpg") no-repeat fixed top right;
-    ```
-
-    This sets the background color to red, uses the image 'image.jpg' as the background image, prevents image repetition, fixes the background position, and places it at the top-right corner of the element.
-
-These are the key concepts related to CSS and selectors, along with examples to help you understand how to use them effectively in your web development projects.
