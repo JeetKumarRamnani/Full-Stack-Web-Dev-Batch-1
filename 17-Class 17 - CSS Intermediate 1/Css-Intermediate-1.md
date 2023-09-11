@@ -1,4 +1,4 @@
-## CSS Advance Lecture 1 : Box Model,Content,Width,Height,Border,Padding,Margin,Box-Sizing,Shorthand Properties
+## CSS Intermediate Lecture 1 : Box Model,Content,Width,Height,Border,Padding,Margin,Box-Sizing,Shorthand Properties
 
 ### Topics Covered:
 
