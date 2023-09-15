@@ -1,9 +1,6 @@
 ## CSS Intermediate Lecture 2: Texts, Fonts,Overflow, Icons, Pseudo-classes, and Links
 
 ### Topics Covered:
-My apologies for missing the topic of "Overflow" in the initial content. Let's add it to both the topics covered and explanations:
-
-### Topics Covered:
 
 1. **Text Properties**
     - **Font Size**: Adjusting the size of text content.
