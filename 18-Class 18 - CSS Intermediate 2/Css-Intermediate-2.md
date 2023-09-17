@@ -1,4 +1,4 @@
-## CSS Intermediate Lecture 2: Texts, Fonts,Overflow, Icons, Pseudo-classes, and Links
+## CSS Intermediate Lecture 2: Texts, Fonts,Overflow, Icons, Pseudo-classes,Links,Lists And Table
 
 ### Topics Covered:
 
@@ -37,6 +37,24 @@
     - **Link States**: Styling links in various states (e.g., normal, hover, visited, active).
     - **Link Effects**: Creating transitions and animations for links.
     - **Link Underlines**: Removing or modifying underlines in links.
+
+7. **Tables and Their Properties**
+    - **HTML Table Structure**: Understanding the basic structure of HTML tables, including `<table>`, `<tr>`, `<th>`, and `<td>` elements.
+    - **Table Styling**: Applying CSS styles to tables, such as setting borders, background colors, and cell padding.
+    - **Table Layout**: Controlling the width and layout of table columns.
+    - **Table Borders**: Adding and customizing borders around table cells.
+    - **Table Headings**: Styling table headers (`<th>`) differently from regular table cells (`<td>`).
+    - **Table Row Striping**: Alternating row colors for improved readability.
+    
+8. **Lists and Their Properties**
+    - **HTML Lists**: Understanding the three main types of HTML lists: ordered lists (`<ol>`), unordered lists (`<ul>`), and definition lists (`<dl>`).
+    - **List Items**: Styling list items (`<li>`) with CSS.
+    - **List Styles**: Customizing the bullet points or numbers for list items.
+    - **List Positioning**: Adjusting the indentation and spacing of list items.
+    - **Nested Lists**: Creating lists within lists (nested lists) and applying styles.
+    - **List Markers**: Modifying the appearance of list markers (bullet points or numbers).
+    - **List Counters**: Using CSS counters to create custom list numbering styles.
+    
 
 ## Explanations:
 
@@ -99,3 +117,29 @@ Pseudo-classes are a fundamental part of CSS and are essential for creating dyna
     - *Link States*: Different link states (normal, hover, visited, active) can be styled differently to provide user feedback and improve usability.
     - *Link Effects*: You can add transitions and animations to links to enhance the user experience.
     - *Link Underlines*: Modifying or removing underlines in links can give your design a unique look while still indicating clickable elements.
+
+
+
+7. **Table Properties**:
+        1. `border`: Specifies the width and style of the border around table elements.
+        2. `border-collapse`: Determines how table borders are rendered, with options like `collapse` to merge adjacent borders.
+        3. `background-color`: Sets the background color of the table or specific table elements.
+        4. `padding`: Adds space inside table cells, controlling the distance between content and cell borders.
+        5. `margin`: Sets the external spacing around the table.
+        6. `width`: Defines the width of the table or its cells.
+        7. `font-size`: Specifies the size of text within table cells.
+        8. `font-weight`: Controls the thickness or boldness of text within table cells.
+        9. `color`: Sets the text color within table cells.
+
+8. **List Properties**:
+        1. `list-style-type`: Specifies the type of marker used for list items (e.g., bullets, numbers, or custom markers).
+        2. `list-style-image`: Allows you to use a custom image as the marker for list items.
+        3. `list-style-position`: Determines whether the list markers appear inside or outside the list items.
+        4. `margin`: Sets the spacing outside of list items, affecting the list's overall layout.
+        5. `padding`: Adds space inside list items, controlling the distance between content and item borders.
+        6. `background-color`: Sets the background color of list items or the list itself.
+        7. `color`: Defines the text color within list items.
+        8. `font-size`: Specifies the size of text within list items.
+        9. `font-weight`: Controls the thickness or boldness of text within list items.
+
+These properties allow you to style tables and lists to match your website's design and improve readability and user experience.
