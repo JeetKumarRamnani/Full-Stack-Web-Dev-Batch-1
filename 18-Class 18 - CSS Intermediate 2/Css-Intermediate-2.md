@@ -1,4 +1,4 @@
-## CSS Intermediate Lecture 2: Texts, Fonts,Overflow, Icons, Pseudo-classes,Links,Lists And Table
+## CSS Intermediate Lecture 2: Texts, Fonts,Overflow, Icons, Pseudo-classes,Links,Lists,Table,Margin-Collapse
 
 ### Topics Covered:
 
@@ -54,6 +54,8 @@
     - **Nested Lists**: Creating lists within lists (nested lists) and applying styles.
     - **List Markers**: Modifying the appearance of list markers (bullet points or numbers).
     - **List Counters**: Using CSS counters to create custom list numbering styles.
+
+9. **Margin Collapse**
     
 
 ## Explanations:
@@ -143,3 +145,6 @@ Pseudo-classes are a fundamental part of CSS and are essential for creating dyna
         9. `font-weight`: Controls the thickness or boldness of text within list items.
 
 These properties allow you to style tables and lists to match your website's design and improve readability and user experience.
+
+9. **Margin Collapse**:
+        Margin collapse, also known as collapsing margins, is a behavior in CSS where the vertical margins of adjacent block-level elements can overlap or collapse into a single margin, rather than adding up. This behavior can lead to unexpected spacing and layout results in web pages. Here are some key points about margin collapse:
