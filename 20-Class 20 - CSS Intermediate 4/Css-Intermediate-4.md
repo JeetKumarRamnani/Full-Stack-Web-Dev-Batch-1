@@ -1,4 +1,4 @@
-## CSS Intermediate Lecture 4 : CSS Units,Transitions,Width Vs Max-width Vs Min-Width,Image Special Properties,Box-Shadow,Linear Gradients,Opacity,Visibility And Z-Index
+## CSS Intermediate Lecture 4 : CSS Units,Transitions,Image Special Properties,Box-Shadow,Opacity,Visibility And Z-Index
 
 ### Topics Covered:
 
@@ -6,13 +6,11 @@
 2. **CSS Units Basics**
 3. **How Many Types Of Units Are In CSS**
 4. **Absolute Vs Relative Units**
-5. **Width Vs Max-width Vs Min-Width**
-6. **How To Add Smoothness Between Transitions Of State**
-7. **Transition Properties**
-8. **Linear Gradients**
-9. **Opacity And Visibility**
-10. **Z-Index**
-11. **CSS Shadows**
+5. **How To Add Smoothness Between Transitions Of State**
+6. **Transition Properties**
+7. **Opacity And Visibility**
+8. **Z-Index**
+9. **CSS Shadows**
 
 
 ## Explanations:
@@ -67,29 +65,22 @@
 ### 4. Absolute Vs Relative Units
    - **Explanation**: Absolute units are like fixed rulers. No matter what's around, they stay the same size. Relative units, on the other hand, are like rulers that change size depending on the context.
 
-### 5. Width Vs Max-width Vs Min-Width
-   - **Explanation**: These three things control how wide something on a webpage can be:
-     - `width` is like saying, "This thing should be exactly this wide."
-     - `max-width` sets a limit on how wide something can get.
-     - `min-width` sets a limit on how narrow something can be.
 
-### 6. How To Add Smoothness Between Transitions Of State
+### 5. How To Add Smoothness Between Transitions Of State
    - **Explanation**: Imagine a button that changes when you hover over it. You can make this change look smooth, not sudden. This is done using transition properties. They determine how this change happens, like going from one color to another smoothly.
 
-### 7. Transition Properties
+### 6. Transition Properties
    - **Explanation**: Transition properties are like the directors of smooth animations. They say which parts of an element should change, how long the change should take, how it should speed up or slow down, and when it should start.
 
-### 8. Linear Gradients
-   - **Explanation**: Linear gradients are like painting backgrounds with colors that blend nicely. You pick two colors, and CSS smoothly mixes them. You can even choose the direction of this color blend.
 
-### 9. Opacity And Visibility
+### 7. Opacity And Visibility
    - **Explanation**: These two things help you control what's seen on a webpage:
      - `opacity` is like a transparency slider. It makes things see-through.
      - `visibility` is like a magic cloak. It can hide things without them disappearing.
 
-### 10. Z-Index
+### 8. Z-Index
    - **Explanation**: Think of web elements like cards stacked on top of each other. The `z-index` is like a label on each card, saying which card is on top and which is at the bottom. It helps control which things are in front and which are behind.
 
-### 11. CSS Shadows
+### 9. CSS Shadows
    - **Explanation**: CSS shadows give elements a bit of depth. They can make things look like they're floating above the page or cast a soft shadow like a lamp. It's like adding a 3D effect to your web design.
 
