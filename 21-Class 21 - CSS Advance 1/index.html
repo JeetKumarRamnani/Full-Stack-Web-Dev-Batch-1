@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello To Flexbox</title>
+    <style>
+        .Parent-Container{
+            width: 100%;
+            height: 800px;
+            border: 2px solid red;
+            display: flex;
+             /* flex-direction: column-reverse; */
+            /* justify-content: flex-end; */
+            /* align-items: center;  */
+            /* flex-wrap:wrap; */
+            /* gap:5px; */
+            /* align-content: flex-start; */
+
+        }
+
+        .Childerns{
+            width: 200px;
+            height: 200px;
+            
+        }
+
+            #child1{
+                background-color: red;
+                
+        }
+            #child2{
+                background-color: blue;
+                align-self: center;
+            }
+            #child3{
+                background-color: yellow;
+            }
+            #child4{
+                background-color: orange;
+            }
+            #child5{
+                background-color: antiquewhite;
+            }
+            #child6{
+                background-color: blueviolet;
+            }
+            #child7{
+                background-color: brown;
+            }
+            #child8{
+                background-color: black;
+            }
+         
+     
+
+    </style>
+</head>
+<body>
+    
+    <div class="Parent-Container">
+
+        <div class="Childerns" id="child1">1</div>
+        <div class="Childerns" id="child2">2</div>
+        <div class="Childerns" id="child3">3</div>
+        <div class="Childerns" id="child4">4</div>
+        <div class="Childerns" id="child5">5</div>
+        <div class="Childerns" id="child6">6</div>
+        <div class="Childerns" id="child7">7</div>
+        <div class="Childerns" id="child8">8</div>
+       
+        
+
+    </div>
+
+</body>
+</html>
