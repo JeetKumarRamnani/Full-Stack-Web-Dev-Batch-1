@@ -1,0 +1,26 @@
+* {
+    margin     : 0px;
+    padding    : 0px;
+    box-sizing : border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: #333333;
+    color           : #C0BAB6;
+    display         : flex;
+    justify-content : space-between;
+    padding         : 30px 279px;
+    flex-wrap       : wrap;
+}
+
+ul {
+    background-color: #232323;
+    display         : flex;
+    list-style      : none;
+    padding         : 20px;
+    gap             : 20px;
+    font-size       : small;
+    flex-wrap       : wrap;
+
+}
