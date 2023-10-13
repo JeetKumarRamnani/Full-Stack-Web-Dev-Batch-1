@@ -4,8 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Design</title>
+    <style>
+
+    div{
+        width: 400px;
+        height: 400px;
+        background-color: red;
+        text-align: center;
+        font-size: 30px ;
+    }
+  
+ 
+/* First Rule For 1200PX OR BELOW*/
+    @media screen and (max-width:1200px){
+
+        div{
+
+            background-color: yellow;
+        }
+            
+    }
+
+
+    /* SECOND Rule For 1000PX OR BELOW*/
+    
+    @media screen and (max-width:1000px){
+
+div{
+
+    background-color: blue;
+}
+    
+}
+
+@media screen and (max-width:800px){
+
+div{
+
+    background-color: purple;
+}
+    
+}
+
+@media screen and (max-width:500px){
+
+div{
+
+    background-color: pink;
+}
+    
+}
+
+@media screen and (max-width:300px){
+
+div{
+
+    background-color: crimson;
+}
+    
+}
+     
+    </style>
 </head>
 <body>
-    
+
+        <div>
+                1200px iska bgcolor yellow <br />
+                1000px  pe iska bgcolor blue <br />
+                800px pe iska bgcolor purple <br />
+                500px pe iska color pink <br />
+
+                300px pe iska color crimson
+        </div>
+
 </body>
 </html>

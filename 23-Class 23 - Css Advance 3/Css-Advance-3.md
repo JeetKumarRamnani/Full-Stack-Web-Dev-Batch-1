@@ -115,3 +115,4 @@ For example, you might write a media query in CSS to ask questions like:
 - "Does the device have a high-resolution display?"
 
 Based on the answers to these questions (the results of the media query), you can apply specific styles or layout adjustments to your web page. So, while it may seem a bit unusual to use the word "query" in the context of CSS, it reflects the idea that you are inquiring about the characteristics of the media in order to make informed styling decisions.
+
