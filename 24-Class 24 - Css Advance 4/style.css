@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Nunito",sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+/* Header Section Styles Starts Here  */
+header{
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to right, #4a00e0, #8e2de2);
+    display: flex;
+    align-items: center;
+
+        
+}
+
+.Header-Child{
+    width: 1200px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Header-Child span{
+    color: white;
+    font-weight: 500;
+    
+}
+
+.Logo-Image{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+
+}
+
+
+/* Header Section Styles Ends Here */
+
+
+/* Main Section Styles Starts Here  */
+
+main{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+main i{
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.Search-Jobs{
+    width: 100%;
+    background-color: #1C1C24;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Search-Input{
+    flex: 1;
+    
+}
+.Search-Input input{
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.Search-Button button{
+    padding: 15px;
+    background-color: #5513cf;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight:500 ;
+    cursor: pointer;
+}
+
+
+.Title{
+    color: white;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.Card-Container{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content:center;
+}
+
+.Card-Description{
+    height: 200px;
+    overflow: hidden;
+}
+.Card{
+    background-color: #1C1C24;
+    color: white;
+    width: 30%;
+    padding: 25px;
+    padding-top: 10px;
+    
+}
+
+.Card-Head span{
+    font-size: 30px;
+
+}
+
+
+.Card-Title{
+    font-size: 22px;
+    margin:25px 0px;
+}
+
+.Card-Foot{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content:center;
+}
+
+.Card-Foot button{
+        padding:10px 20px;
+        
+}
+/* Main Section Styles Ends Here  */
+
+
+
+
+
+
+
+
+
+@media (max-width:400px){
+    .Card-Container{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .Title{
+        font-size: 20px ;
+    }
+}
