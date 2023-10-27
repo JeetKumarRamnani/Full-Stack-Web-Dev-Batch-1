@@ -10,7 +10,7 @@
 6. **What does It Mean By Explicit And Implicit**
 7. **What Does it mean by Static And Dynamic Typing**
 8. **What Is Strongly And Weekly Typed Language**
-9. **What does it mean by case sensitivity why javascript is called case insensitive language**
+9. **What does it mean by case sensitivity why javascript is called case sensitive language**
 10. **what does it mean by casing**
 11. **What is camel casing,pascal casing,kebab casing and snake casing**
 12. **What type of casing javascript follows**
