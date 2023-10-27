@@ -8,8 +8,8 @@
 4. **Purpose Of Datatypes??**
 5. **How Many Datatypes are Available In Javascript??**
 6. **What does It Mean By Explicit And Implicit**
-7. **What Is Strongly And Weekly Typed Language**
-8. **What Does it mean by Static And Dynamic Typing**
+7. **What Does it mean by Static And Dynamic Typing**
+8. **What Is Strongly And Weekly Typed Language**
 9. **What does it mean by case sensitivity why javascript is called case insensitive language**
 10. **what does it mean by casing**
 11. **What is camel casing,pascal casing,kebab casing and snake casing**
@@ -84,19 +84,34 @@ JavaScript has several data types, including:
 
 - **Implicit Type Conversion (Type Coercion):** In this case, the language automatically converts data from one type to another when needed. For instance, when you add a number and a string in JavaScript, the string is implicitly converted to a number for the operation.
 
-**7. What Is Strongly And Weekly Typed Language**
-
-- **Strongly Typed Language:** In a strongly typed language, strict rules are enforced regarding data types. Variables must be explicitly declared with a specific data type, and operations are limited to those defined for that type. JavaScript is a weakly typed language, which means it's more permissive regarding data type conversions.
-
-- **Weakly Typed Language:** In a weakly typed language, data type conversion is often implicit, allowing for more flexible operations. JavaScript is a weakly typed language, which means it performs type coercion to facilitate operations between different data types.
-
-**8. What Does it mean by Static And Dynamic Typing**
+**7. What Does it mean by Static And Dynamic Typing**
 
 - **Static Typing:** In a statically typed language, variable data types are determined at compile time. Once a variable is declared with a specific data type, it cannot change. Examples of statically typed languages include Java and C++.
 
 - **Dynamic Typing:** In a dynamically typed language, variable data types are determined at runtime. You can change the data type of a variable during the execution of the program. JavaScript is an example of a dynamically typed language.
 
-**9. What does it mean by case sensitivity, why JavaScript is called a case-insensitive language**
+**8. What Is Strongly And Weekly Typed Language**
+
+- **Weakly Typed Language (Dynamic Typing):**
+
+- In a weakly typed language, also known as dynamically typed language, data types are more flexible.
+- Variables can change their data type during runtime.
+- Type checking occurs at runtime, which means the type of a variable is determined when the program is running and can change as the program executes.
+- Weakly typed languages often perform implicit type conversion (coercion) to allow operations between different data types. For example, you can concatenate a number and a string without explicit conversion.
+- Examples of weakly typed languages include JavaScript and PHP.
+
+- **Strongly Typed Language (Static Typing):**
+
+- In a strongly typed language, also known as statically typed language, data types are more rigid.
+- Variables are assigned a specific data type at compile-time and cannot change during runtime.
+- Type checking occurs at compile-time, which means the type of a variable is determined and verified before the program runs. This can catch type-related errors at an early stage.
+- Strongly typed languages often require explicit type conversion (casting) to perform operations between different data types. For example, you need to explicitly convert a string to a number before performing arithmetic operations.
+- Examples of strongly typed languages include Java, C++, and Swift.
+
+In summary, the key difference is when type checking occurs and how flexible the language is in terms of allowing operations between different data types. Weakly typed languages perform type checking at runtime and allow more implicit type conversions, whereas strongly typed languages perform type checking at compile-time and require more explicit type conversions.
+
+
+**9. What does it mean by case sensitivity, why JavaScript is called a case-sensitive language**
 
 - **Case Sensitivity:** Case sensitivity means that a programming language distinguishes between uppercase and lowercase letters in variable names and identifiers. In a case-sensitive language, "myVar" and "myvar" would be treated as two different variables.
 
