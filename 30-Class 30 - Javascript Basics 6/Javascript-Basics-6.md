@@ -1,4 +1,4 @@
-## Javascript Basics Lecture 6 : Concatination,+ Operator,Type Coersion,Control Structures,Comparision Operator,If/Else,Switch
+## Javascript Basics Lecture 6 : Concatination,+ Operator,Type Coersion,Comparision Operator
 
 ### Topics Covered:
 
@@ -6,14 +6,6 @@
 2. **What does it mean by concatination**
 3. **Tyep Coersion**
 4. **Comparision Operators**
-5. **What Does It Mean By Control Structures**
-6. **Ways To Implement Control Structures**
-7. **What Is Condition**
-8. **What Are Conditional Statments**
-9. **What is if statement**
-10. **What is Else Statement**
-11. **What is if/else statements**
-12. **if/else and else/if**
 
 ## Explanations:
 
@@ -83,124 +75,11 @@ console.log(num1 < num2); // Output: true
 console.log(num1 === "5"); // Output: false (strict equality)
 ```
 
-### 5. What Does It Mean By Control Structures:
+**Conclusion:**
+In this JavaScript Basics lecture, we've explored fundamental concepts that are essential for anyone looking to become proficient in JavaScript. We've discussed the versatile `+` operator and its behavior with both numbers and strings, learned about the concept of concatenation for joining strings effectively, and gained insights into type coercion, a key aspect of JavaScript. Additionally, we've covered comparison operators that are crucial for making logical decisions in your code. By understanding these concepts, you're well on your way to becoming a skilled JavaScript developer.
 
-Control structures in JavaScript are used to control the flow of a program. They include conditional statements and loops that allow you to make decisions and repeat actions based on specific conditions.
 
-Example of a control structure (conditional statement):
 
-```javascript
-var age = 20;
-if (age >= 18) {
-  console.log("You are an adult.");
-} else {
-  console.log("You are a minor.");
-}
-```
 
-In this example, the `if` statement is a control structure that checks the condition (age >= 18) and executes different code blocks based on the result.
 
-### 6. Ways To Implement Control Structures:
 
-The main ways to implement control structures in JavaScript are:
-
-- Conditional Statements: These include `if`, `else if`, `else`, and `switch` statements for making decisions based on conditions.
-- Loops: JavaScript provides `for`, `while`, and `do...while` loops for executing code repeatedly.
-
-### 7. What Is Condition:
-
-A condition in JavaScript is a statement or expression that evaluates to either `true` or `false`. Conditions are used in control structures to determine the flow of the program. For example, in an `if` statement, the condition is evaluated, and if it's `true`, the code block inside the `if` is executed.
-
-Example:
-
-```javascript
-var age = 20;
-if (age >= 18) {
-  console.log("You are an adult.");
-}
-```
-
-In this example, `age >= 18` is the condition that determines whether the person is an adult or not.
-
-### 8. What Are Conditional Statements:
-
-Conditional statements are used to execute different blocks of code based on whether a specified condition is `true` or `false`. Common conditional statements in JavaScript include `if`, `else if`, `else`, and `switch`. These statements help you make decisions in your code.
-
-### 9. What is if statement:
-
-An `if` statement is a conditional statement in JavaScript that allows you to execute a block of code if a specified condition is `true`. If the condition is `false`, the code block inside the `if` statement is skipped.
-
-Example:
-
-```javascript
-var temperature = 25;
-if (temperature > 30) {
-  console.log("It's hot outside.");
-}
-```
-
-In this example, the code inside the `if` statement will not be executed because the temperature is not greater than 30.
-
-### 10. What is Else Statement:
-
-The `else` statement is used in conjunction with an `if` statement to provide an alternative block of code to execute when the condition in the `if` statement is `false`.
-
-Example:
-
-```javascript
-var hour = 14;
-if (hour < 12) {
-  console.log("Good morning!");
-} else {
-  console.log("Good afternoon!");
-}
-```
-
-In this example, if the `hour` is less than 12, "Good morning!" is displayed; otherwise, "Good afternoon!" is displayed.
-
-### 11. What is if/else statements:
-
-An `if/else` statement allows you to specify two blocks of code: one to execute if the condition is `true` and another to execute if the condition is `false`.
-
-Example:
-
-```javascript
-var grade = 75;
-if (grade >= 70) {
-  console.log("You passed the exam.");
-} else {
-  console.log("You failed the exam.");
-}
-```
-
-In this example, if the `grade` is greater than or equal to 70, the message "You passed the exam." is displayed; otherwise, "You failed the exam." is displayed.
-
-### 12.if/else and else/if:
-
-"if/else" statements allow you to execute one block of code if a condition is true, and another block of code if the condition is false. "else if" statements (also written as "elif") let you specify multiple conditions and execute different blocks of code based on those conditions. This is helpful when you have more than two possible outcomes to consider.
-
-Here's an example:
-
-```javascript
-let age = 25;
-
-if (age < 18) {
-    console.log("You are a minor.");
-} else if (age >= 18 && age < 65) {
-    console.log("You are an adult.");
-} else {
-    console.log("You are a senior citizen.");
-}
-```
-
-In this example, we're checking the value of the `age` variable:
-
-- If `age` is less than 18, it will print "You are a minor."
-- If `age` is between 18 and 64 (inclusive), it will print "You are an adult."
-- If neither of the above conditions is met (i.e., if `age` is 65 or older), it will print "You are a senior citizen."
-
-The "if" statement is the initial condition, and the "else if" statements provide additional conditions to be checked if the previous conditions are false. The "else" statement at the end acts as a catch-all for any cases not covered by the "if" or "else if" conditions.
-
-This way, you can handle multiple cases and execute different code blocks based on the values of variables or conditions in your program.
-
-These topics cover essential aspects of JavaScript programming, enabling you to make decisions and control the flow of your code. Understanding them is crucial for writing effective JavaScript programs.
