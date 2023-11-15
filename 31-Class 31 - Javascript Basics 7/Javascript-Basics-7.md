@@ -16,7 +16,7 @@
 
 ## Explanations:
 
-### 1. What Does It Mean By Control Structures:
+### 1. What Does It Mean By Flow Of Program:
 
 The flow of a program refers to the order in which statements or instructions are executed during the program's runtime. This flow is typically controlled by control structures such as loops, conditionals, and function calls. Understanding and designing the flow of a program is crucial for writing efficient, organized, and functional code.
 
