@@ -2,7 +2,7 @@
 
 ### Topics Covered:
 
-1. **Assignments Solution**
+1. **Nested If Condition**
 2. **Truthy And Falsy Values**
 3. **Logical Operators**
 4. **Comparing Booleans Using Logical Operators**
@@ -12,9 +12,36 @@
 
 ## Explanations:
 
-### 1. Assignments Solution
+### 1. Nested If Else Condition
 
-Solution Of Assignments
+A nested if-else statement is a control flow structure in programming where an "if-else" statement is placed inside another "if" or "else" block. This creates a hierarchy of conditions, allowing for more complex decision-making based on multiple criteria.
+
+```javascript
+let age = 18;
+let citizenship = "US";
+
+if (age >= 18) {
+  // The person is 18 or older
+  if (citizenship === "US") {
+    // The person is 18 or older and is a US citizen
+    console.log("You are eligible to vote!");
+  } else {
+    // The person is 18 or older but is not a US citizen
+    console.log("You must be a US citizen to vote.");
+  }
+} else {
+  // The person is younger than 18
+  console.log("You are not eligible to vote.");
+}
+```
+
+In this example:
+
+- The outer if statement checks if the person is 18 or older.
+- If the person is 18 or older, the nested if statement checks if they are a US citizen.
+- Depending on the conditions, different messages are logged to the console.
+
+This is a basic use of nested if statements to handle different scenarios based on multiple conditions. It demonstrates how the nested structure allows you to check additional conditions based on the outcome of the outer condition.
 
 ### 2. Truthy and Falsy Values
 
