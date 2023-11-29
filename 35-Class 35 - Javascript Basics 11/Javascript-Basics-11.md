@@ -2,8 +2,8 @@
 
 ## Topics Covered:
 
-1. **Block Of Code With A Name**
-2. **What Does It Mean By Code Reuseablity**
+1. **What Does It Mean By Code Reuseablity**
+2. **Block Of Code With A Name**
 3. **What Are Functions**
 4. **Purpose Of Functions**
 5. **Declaring And Defining The Functions**
@@ -15,22 +15,7 @@
 
 ## Explanations:
 
-### 1. Block Of Code With A Name:
-
-A block of code with a name refers to a set of instructions grouped together under a specific name or identifier. In JavaScript, this is achieved using functions. Functions allow you to encapsulate a sequence of statements into a single unit, making the code modular and easier to manage.
-
-Example:
-```javascript
-// Defining a function named 'greet'
-function greet() {
-  console.log("Hello, world!");
-}
-
-// Calling the 'greet' function
-greet();
-```
-
-### 2. What Does It Mean By Code Reusability:
+### 1. What Does It Mean By Code Reusability:
 
 Code reusability is a programming concept that emphasizes writing code in a way that it can be used multiple times in different parts of a program or even in different programs. Functions are a primary mechanism for achieving code reusability in JavaScript.
 
@@ -44,6 +29,21 @@ function calculateSquare(number) {
 // Using the function in different parts of the program
 let result1 = calculateSquare(5); // 25
 let result2 = calculateSquare(8); // 64
+```
+
+### 2. Block Of Code With A Name:
+
+A block of code with a name refers to a set of instructions grouped together under a specific name or identifier. In JavaScript, this is achieved using functions. Functions allow you to encapsulate a sequence of statements into a single unit, making the code modular and easier to manage.
+
+Example:
+```javascript
+// Defining a function named 'greet'
+function greet() {
+  console.log("Hello, world!");
+}
+
+// Calling the 'greet' function
+greet();
 ```
 
 ### 3. What Are Functions:
