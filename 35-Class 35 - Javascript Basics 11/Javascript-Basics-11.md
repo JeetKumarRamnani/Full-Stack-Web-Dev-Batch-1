@@ -1,4 +1,4 @@
-# Javascript Basics Lecture 11 : Control Structures Part 5
+# Javascript Basics Lecture 11 : Control Structures Part 5 - Functions Part 1
 
 ## Topics Covered:
 
