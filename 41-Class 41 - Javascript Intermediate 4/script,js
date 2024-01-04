@@ -1,0 +1,94 @@
+// console.log('Javascript Intermediate Part 4');
+
+//Constructor Revision
+
+// Factory Function
+// function objectFactory(name, age) {
+//   return {
+//     name,
+//     age,
+//     showName() {
+//       console.log(this.name, this.age);
+//     },
+//   };
+// }
+
+// var jeetObj = objectFactory('Jeet Kumar', 28);
+// var anandObj = objectFactory('Anand Kumar', 28);
+// var aanandObj = objectFactory('Anand Kumar', 28);
+
+// console.log(jeetObj);
+// console.log(anandObj);
+// console.log(aanandObj);
+
+// Constructor Function
+
+// function ObjectConstructor(name, age) {
+//   this.name = name;
+//   this.age = age;
+// }
+
+// ObjectConstructor.prototype.showName = function () {
+//   console.log(this.name, this.age);
+// };
+// var jeetObj = new ObjectConstructor('Jeet Kumar', 28);
+
+// var kapilObj = new ObjectConstructor('Jeet Kumar', 28);
+
+// console.log(jeetObj);
+// console.log(kapilObj);
+
+// var obj = {};
+
+// obj.name = 'jeet';
+// obj.age = 28;
+
+// console.log(obj);
+
+// var str = 'Jeet Kumar';
+// str ="kapil"
+// var num =2
+// num=3
+// console.log(str);
+// console.log(str2);
+
+// var objLiteral = {};
+
+//String Litteral
+// var str = 'jeet kumar';
+// console.log(str.toUpperCase());
+//String Constructor Method
+// var str = new String('Jeet Kumar');
+
+// console.log(str);
+
+// var obj = {
+//   0: 'jeet',
+//   'my age': 28,
+// };
+
+// console.log(obj['my age']);
+
+//Escape Sequence
+//To show specail characters in the string
+// var str = 'jeet kumar \n ramnani ';
+
+// console.log(str);
+//String Manipulation Using String Methods
+
+//toUpperCase()
+//toLowerCase()
+//trim()
+//slice
+//substring()
+//indexOf
+
+// var str = 'Jeet Kumar Ramnani';
+// console.log(str);
+// console.log(str.toUpperCase());
+// console.log(str.toLowerCase());
+// console.log(str.trim());
+// console.log(str.trimStart());
+// console.log(str.trimEnd());
+// console.log(str.slice(4));
+// console.log(str.substring());
