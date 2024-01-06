@@ -36,6 +36,8 @@
       - `reduce(callback, initialValue)`: Applies a function against an accumulator and each element in the array (from left to right) to reduce it to a single value.
       - `splice(startIndex, deleteCount, item1, item2, ...)`: Changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.
       - `slice(startIndex, endIndex)`: Returns a shallow copy of a portion of an array.
+    
+4. **Mutative And Non-Mutative Array Methods:**
 
 ## Explanations:
 
@@ -68,4 +70,64 @@
       - `reduce(callback, initialValue)`: Aggregating array elements into a single value.
       - `splice(startIndex, deleteCount, item1, item2, ...)`: Modifying array contents in place.
       - `slice(startIndex, endIndex)`: Extracting a portion of an array without modifying the original.
+    
+4. **Mutative And Non-Mutative Array Methods:**
+    In JavaScript, array methods can be categorized into mutative (or destructive) and non-mutative (or non-destructive) based on their behavior. Mutative methods modify the original array, while non-mutative methods return a new array without modifying the original one. Here are examples of both types:
+
+### Mutative (Destructive) Array Methods:
+
+1. **`push()`** - Adds one or more elements to the end of an array and returns the new length of the array.
+
+    ```javascript
+    let arr = [1, 2, 3];
+    arr.push(4);
+    console.log(arr); // [1, 2, 3, 4]
+    ```
+
+2. **`pop()`** - Removes the last element from an array and returns that element.
+
+    ```javascript
+    let arr = [1, 2, 3];
+    let poppedValue = arr.pop();
+    console.log(arr);         // [1, 2]
+    console.log(poppedValue); // 3
+    ```
+
+3. **`splice()`** - Changes the contents of an array by removing or replacing existing elements and/or adding new elements.
+
+    ```javascript
+    let arr = [1, 2, 3, 4, 5];
+    arr.splice(2, 2, 'a', 'b');
+    console.log(arr); // [1, 2, 'a', 'b', 5]
+    ```
+
+### Non-Mutative (Non-Destructive) Array Methods:
+
+1. **`concat()`** - Combines two or more arrays and returns a new array without modifying the existing ones.
+
+    ```javascript
+    let arr1 = [1, 2, 3];
+    let arr2 = [4, 5, 6];
+    let newArr = arr1.concat(arr2);
+    console.log(newArr); // [1, 2, 3, 4, 5, 6]
+    ```
+
+2. **`slice()`** - Returns a shallow copy of a portion of an array into a new array.
+
+    ```javascript
+    let arr = [1, 2, 3, 4, 5];
+    let slicedArr = arr.slice(1, 4);
+    console.log(slicedArr); // [2, 3, 4]
+    ```
+
+3. **`map()`** - Creates a new array by applying a function to each element of an existing array.
+
+    ```javascript
+    let arr = [1, 2, 3];
+    let newArr = arr.map(item => item * 2);
+    console.log(newArr); // [2, 4, 6]
+    ```
+
+By understanding whether a method is mutative or non-mutative, you can choose the appropriate one based on your requirements and avoid unintended side effects on your data.
+
 
