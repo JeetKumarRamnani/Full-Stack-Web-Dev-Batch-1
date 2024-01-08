@@ -1,7 +1,3 @@
-Certainly! Here's a combined set of assignments in Markdown format:
-
----
-
 # String Manipulation Assignments
 
 ## Assignment 1: String Validation
