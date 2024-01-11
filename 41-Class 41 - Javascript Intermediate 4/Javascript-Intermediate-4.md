@@ -1,4 +1,4 @@
-# Javascript Intermediate Lecture 4 : OBJECTS Intermediate 4
+# Javascript Intermediate Lecture 4 : OBJECTS Intermediate 1
 
 ## Topics Covered:
 
