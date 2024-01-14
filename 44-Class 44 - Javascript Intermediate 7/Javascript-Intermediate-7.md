@@ -7,7 +7,7 @@
 3. **setInterval Function**
 4. **setTimeOut Function**
 5. **Number Object**
-6. **Multiple Ways Of Converting String To Number**
+6. **Multiple Ways Of Converting/Typecasting String To Number**
 7. **Math Object**
 8. **Math Is Not A Regular Method It Dont Have A Constructor**
 9. **Math Object Methods**
@@ -106,7 +106,7 @@ console.log(num.toFixed(2)); // Format the number with two decimal places
 
 In this example, `Number.isInteger` checks if the number is an integer, and `toFixed` formats the number with two decimal places.
 
-### 6. Multiple Ways Of Converting String To Number:
+### 6. Multiple Ways Of Converting/Typecasting String To Number:
 
 Converting a string to a number can be done using various methods like `parseInt()`, `parseFloat()`, `Number()`, or unary plus `+`. Here's a comprehensive example:
 
