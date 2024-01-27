@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+
+    <script>
+        document.title="HTML And Javascript Example";
+    //    font-family: 'Arial', sans-serif;
+    //         margin: 20px;
+    //         text-align: center;
+    
+    //  Body
+            var body = document.body;
+            body.style.fontFamily="Arial, sans-serif";
+            body.style.margin= "20px";
+            body.style.textAlign="center";
+
+   //Image
+            var image = document.createElement("img");
+            image.src = "https://via.placeholder.com/800x400";
+            image.style.maxWidth="100%";
+            image.style.height= "auto";
+            image.style.borderRadius ="10px";
+            image.style.marginBottom="20px";
+            body.appendChild(image)
+
+    //Heading
+            var heading = document.createElement("h1");
+            var content = document.createTextNode("Web Page Demo");
+            heading.appendChild(content);
+            body.appendChild(heading)
+
+
+     //Paragraph
+     
+            var paragraph = document.createElement("p");
+            var paraText = document.createTextNode("This is a simple web page demonstrating the use of HTML and CSS.")
+            paragraph.appendChild(paraText)
+            body.appendChild(paragraph)
+
+    //Div
+
+        for(var i=1; i<5; i++){
+
+            var div = document.createElement("div");
+            var divText = document.createTextNode("Element "+i);
+            div.appendChild(divText);
+            body.appendChild(div)
+
+
+        }
+
+
+
+
+            
+
+            console.dir(image)     
+
+
+    </script>
+    
+</body>
+</html>
