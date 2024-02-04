@@ -93,15 +93,23 @@ In summary, the main difference lies in their intended use and the types of obje
 
 ### 4. Directly Accessing Element Of DOM Using ID Attribute Value:
 
+The code `window.parentDiv` is accessing the element directly with the id "parentDiv" because the browser automatically creates global variables for elements with ids. 
+
+When you define an element with an id, the browser adds a property to the global object (which is typically `window` in the browser environment) with the same name as the id. This property holds a reference to the corresponding DOM element.
+
+So, in your example, when you have `<div id="parentDiv">`, the browser automatically creates a global variable `window.parentDiv` that refers to the `<div>` element with the id "parentDiv". This allows you to access the element directly without using `getElementById` or other methods.
+
+While this behavior is convenient, it's generally recommended to use `getElementById` or `querySelector` for better clarity and compatibility across different environments. Using global variables like `window.parentDiv` might lead to potential issues and is not considered a best practice in modern JavaScript development.
+
 ```html
 <!DOCTYPE html>
 <html>
 <body>
 
-<div id="myDiv">Hello World!</div>
+<div id="parentDiv">Hello World!</div>
 
 <script>
-  let element = document.getElementById("myDiv");
+  let element = myDiv;
   console.log(element.innerHTML); // Outputs: Hello World!
 </script>
 
