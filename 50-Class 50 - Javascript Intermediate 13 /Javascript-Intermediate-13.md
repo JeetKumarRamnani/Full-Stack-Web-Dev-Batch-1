@@ -1,4 +1,7 @@
-# JavaScript Intermediate Lecture 13: DOM - Right Way Of Selecting Elements,API,Web Api
+Sure, here's the content formatted in Markdown:
+
+```markdown
+# JavaScript Intermediate Lecture 13: DOM - Right Way Of Selecting Elements, API, Web API
 
 ## Topics Covered:
 
@@ -7,13 +10,13 @@
 3. **What Does It Mean By API**
 4. **Selecting Elements The Right Way**
 5. **Methods For Selecting Elements**
-   - **document.getElementById**
-   - **document.getElementsByTagName**
-   - **document.getElementsByClassName**
+   - `document.getElementById`
+   - `document.getElementsByTagName`
+   - `document.getElementsByClassName`
 6. **Method For Selecting Elements Using CSS Selectors**
-   - **document.querySelector**
-   - **document.querySelectorAll**
-7. **Difference Between querrySelector & querrySelectorAll Methods**
+   - `document.querySelector`
+   - `document.querySelectorAll`
+7. **Difference Between `querySelector` & `querySelectorAll` Methods**
 
 ## Explanations:
 
@@ -36,112 +39,127 @@
 **5. Methods For Selecting Elements:**
    - `document.getElementById`: Selects a single element by its unique ID attribute.
 
+   ```html
    <!DOCTYPE html>
-<html>
-<head>
-    <title>Example - getElementById</title>
-</head>
-<body>
-    <div id="myDiv">Hello World!</div>
-    <script>
-        const myDiv = document.getElementById("myDiv");
-        console.log(myDiv.textContent); // Output: Hello World!
-    </script>
-</body>
-</html>
+   <html>
+   <head>
+       <title>Example - getElementById</title>
+   </head>
+   <body>
+       <div id="myDiv">Hello World!</div>
+       <script>
+           const myDiv = document.getElementById("myDiv");
+           console.log(myDiv.textContent); // Output: Hello World!
+       </script>
+   </body>
+   </html>
+   ```
 
    - `document.getElementsByTagName`: Selects a collection of elements by their tag name.
+
+   ```html
    <!DOCTYPE html>
-<html>
-<head>
-    <title>Example - getElementsByTagName</title>
-</head>
-<body>
-    <ul>
-        <li>Apple</li>
-        <li>Orange</li>
-        <li>Banana</li>
-    </ul>
-    <script>
-        const listItems = document.getElementsByTagName("li");
-        for (let item of listItems) {
-            console.log(item.textContent);
-        }
-        // Output:
-        // Apple
-        // Orange
-        // Banana
-    </script>
-</body>
-</html>
+   <html>
+   <head>
+       <title>Example - getElementsByTagName</title>
+   </head>
+   <body>
+       <ul>
+           <li>Apple</li>
+           <li>Orange</li>
+           <li>Banana</li>
+       </ul>
+       <script>
+           const listItems = document.getElementsByTagName("li");
+           for (let item of listItems) {
+               console.log(item.textContent);
+           }
+           // Output:
+           // Apple
+           // Orange
+           // Banana
+       </script>
+   </body>
+   </html>
+   ```
 
    - `document.getElementsByClassName`: Selects a collection of elements by their class name.
+
+   ```html
    <!DOCTYPE html>
-<html>
-<head>
-    <title>Example - getElementsByClassName</title>
-</head>
-<body>
-    <div class="box">Box 1</div>
-    <div class="box">Box 2</div>
-    <div class="box">Box 3</div>
-    <script>
-        const boxes = document.getElementsByClassName("box");
-        for (let box of boxes) {
-            console.log(box.textContent);
-        }
-        // Output:
-        // Box 1
-        // Box 2
-        // Box 3
-    </script>
-</body>
-</html>
+   <html>
+   <head>
+       <title>Example - getElementsByClassName</title>
+   </head>
+   <body>
+       <div class="box">Box 1</div>
+       <div class="box">Box 2</div>
+       <div class="box">Box 3</div>
+       <script>
+           const boxes = document.getElementsByClassName("box");
+           for (let box of boxes) {
+               console.log(box.textContent);
+           }
+           // Output:
+           // Box 1
+           // Box 2
+           // Box 3
+       </script>
+   </body>
+   </html>
+   ```
 
 **6. Method For Selecting Elements Using CSS Selectors:**
    - `document.querySelector`: Selects the first element that matches a specified CSS selector.
+
+   ```html
    <!DOCTYPE html>
-<html>
-<head>
-    <title>Example - querySelector</title>
-</head>
-<body>
-    <div class="box">Box 1</div>
-    <div class="box">Box 2</div>
-    <div class="box">Box 3</div>
-    <script>
-        const firstBox = document.querySelector(".box");
-        console.log(firstBox.textContent); // Output: Box 1
-    </script>
-</body>
-</html>
+   <html>
+   <head>
+       <title>Example - querySelector</title>
+   </head>
+   <body>
+       <div class="box">Box 1</div>
+       <div class="box">Box 2</div>
+       <div class="box">Box 3</div>
+       <script>
+           const firstBox = document.querySelector(".box");
+           console.log(firstBox.textContent); // Output: Box 1
+       </script>
+   </body>
+   </html>
+   ```
 
    - `document.querySelectorAll`: Selects all elements that match a specified CSS selector and returns them as a NodeList.
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Example - querySelectorAll</title>
-</head>
-<body>
-    <div class="box">Box 1</div>
-    <div class="box">Box 2</div>
-    <div class="box">Box 3</div>
-    <script>
-        const allBoxes = document.querySelectorAll(".box");
-        allBoxes.forEach(box => {
-            console.log(box.textContent);
-        });
-        // Output:
-        // Box 1
-        // Box 2
-        // Box 3
-    </script>
-</body>
-</html>
 
-**7. Difference Between querySelector & querySelectorAll Methods:**
+   ```html
+   <!DOCTYPE html>
+   <html>
+   <head>
+       <title>Example - querySelectorAll</title>
+   </head>
+   <body>
+       <div class="box">Box 1</div>
+       <div class="box">Box 2</div>
+       <div class="box">Box 3</div>
+       <script>
+           const allBoxes = document.querySelectorAll(".box");
+           allBoxes.forEach(box => {
+               console.log(box.textContent);
+           });
+           // Output:
+           // Box 1
+           // Box 2
+           // Box 3
+       </script>
+   </body>
+   </html>
+   ```
+
+**7. Difference Between `querySelector` & `querySelectorAll` Methods:**
    - `querySelector` returns the first element that matches the specified CSS selector, while `querySelectorAll` returns a NodeList containing all elements that match the selector.
    - `querySelector` stops searching after finding the first match, while `querySelectorAll` gathers all matches.
    - `querySelector` is more useful when you only need to manipulate the first matched element, while `querySelectorAll` is useful when you need to work with multiple elements that match a selector.
 
 These topics cover the basics of selecting elements in the DOM using JavaScript and provide insight into the various methods available for this purpose. Understanding these concepts is essential for effective DOM manipulation in web development.
+```
