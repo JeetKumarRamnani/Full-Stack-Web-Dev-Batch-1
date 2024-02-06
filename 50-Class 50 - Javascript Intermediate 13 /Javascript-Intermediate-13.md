@@ -1,6 +1,4 @@
-Sure, here's the content formatted in Markdown:
 
-```markdown
 # JavaScript Intermediate Lecture 13: DOM - Right Way Of Selecting Elements, API, Web API
 
 ## Topics Covered:
