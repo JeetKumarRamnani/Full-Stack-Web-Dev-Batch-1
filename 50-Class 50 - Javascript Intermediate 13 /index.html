@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       /* #myDiv{
+            background-color:red
+        } */
+        /* div{
+
+        } */
+
+        /* #myPara{
+
+        } */
+
+            /* .jeet{
+
+            } */
+
+            /* .jeet #myPara{
+
+            } */
+    </style>
+</head>
+<body>
+    <!-- <a id="myAnchor" class="jeet" href="#">My lINK</a> -->
+
+    <!-- <div id="myDiv" class="jeet">
+        <p id="myPara">
+            <a id="myAnchor" class="jeet" href="#">My lINK</a>
+            <div></div>
+        </p>
+    </div>
+    <div id="div2"></div> -->
+
+    <div id="parentDiv" >
+        <div class="childDiv">Child 1</div>
+        <div class="childDiv">Child 2</div>
+        <div class="childDiv">Child 3</div>
+        <div class="childDiv">Child 4</div>
+      </div>
+
+    <script>
+        //beforebegin
+        //afterbegin
+        //beforeend
+        //afterend
+
+    var parent = document.querySelector("#parentDiv")
+    // console.log(parent)
+    // parent.insertAdjacentHTML("beforebegin","<p>Hello My Name Is Jeet</p>")
+    // parent.insertAdjacentHTML("afterbegin","<p>Hello My Name Is Jeet</p>")
+    // parent.insertAdjacentHTML("beforeend","<p>Hello My Name Is Jeet</p>")
+    // parent.insertAdjacentHTML("afterend","<p>Hello My Name Is Jeet</p>")
+    // var d = document;
+    // var newEl = d.createElement("p")
+    // newEl.innerText ="Heelo Jeet"
+
+    //     parent.insertAdjacentElement("beforebegin",newEl)
+
+        // parent.insertAdjacentText("beforebegin","asasasasasas")
+
+
+
+
+
+
+
+
+
+
+
+
+        // myAnchor.textContent="My Link"
+        // var link = document.getElementById("myAnchor");
+        // link.textContent =" My Link"
+        // document.getElementById("myAnchor").textContent="jEET kUMAR"
+        // var divArray = document.getElementsByTagName("div")
+        // for(var div of divArray){
+        //     div.style.backgrounColor ="red"
+        //     div.style.width ="red"
+        //     div.style.height ="red"
+
+        //     console.log(div)
+        // }
+        // console.log(divArray)
+            // var jeetClass=document.getElementsByClassName("jeet")
+            // console.log(jeetClass)
+
+
+        // var jeet = document.querySelectorAll("div")
+            // console.log(jeet)
+        // var jeet = document.querySelector(".jeet")
+        // console.log(jeet)
+        // var jeet = document.querySelectorAll("#myPara")
+        // console.log(jeet)
+
+        // var jeet = document.querySelectorAll(".jeet #myPara")
+        // console.log(jeet)
+
+        // var jeet = document.querySelector(".jeet > #myPara")
+        // console.log(jeet)
+
+// function jeet(){
+//    var num1 = 20;
+//    var num3 = 40;
+//    num1+num3
+//    return undefined
+// }
+
+        var newEl = document.createElement("h1");
+        var newEl2 = document.createElement("h2");
+        newEl.innerText = "Heading 1"
+        newEl2.innerText = "Heading 2"
+            // parentDiv.appendChild("sasassa")
+            // parentDiv.append("sasasas")
+            // console.log(parentDiv.appendChild(newEl))
+            console.log(parentDiv.append(newEl))
+
+            console.log(jeet())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+        
+
+
+    </script>
+</body>
+</html>
