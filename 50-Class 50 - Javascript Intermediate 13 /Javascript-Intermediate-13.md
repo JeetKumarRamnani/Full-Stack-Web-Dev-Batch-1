@@ -16,6 +16,7 @@
    - `document.querySelector`
    - `document.querySelectorAll`
 9. **Difference Between `querySelector` & `querySelectorAll` Methods**
+10. **A Little Dom Project**
 
 ## Explanations:
 
