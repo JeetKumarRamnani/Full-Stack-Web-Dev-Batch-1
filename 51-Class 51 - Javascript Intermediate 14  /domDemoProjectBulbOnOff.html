@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bulb On/Off</title>
+</head>
+<body>
+  <div>
+    <img src="https://i.postimg.cc/3yQ3qysN/bulb-on.jpg" alt="Bulb On" id="bulbImage">
+  </div>
+  <button onclick="turnOnOrOff()">Turn Off</button>
+
+  <script>
+    const bulbImage = document.getElementById('bulbImage');
+    let isOn = true;
+
+    function turnOn() {
+      bulbImage.src = 'https://i.postimg.cc/3yQ3qysN/bulb-on.jpg';
+      document.querySelector('button').textContent = 'Turn Off';
+    }
+
+    function turnOff() {
+      bulbImage.src = 'https://i.postimg.cc/ZvSYyWLX/bulb-off.jpg';
+      document.querySelector('button').textContent = 'Turn On';
+    }
+
+    function turnOnOrOff() {
+      if (isOn) {
+        turnOff();
+      } else {
+        turnOn();
+      }
+      isOn = !isOn;
+    }
+  </script>
+</body>
+</html>
