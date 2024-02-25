@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="height: 200vh;">
+
+    <!-- <div id="myDiv">
+        sasasas
+    </div> -->
+    <div id="myDiv">
+        asashsjasajdhajsd
+    </div>
+    <button id="myBtn">
+        Click Me
+    </button>
+
+
+    <script>
+        var d = document;
+        var div = d.querySelector("#myDiv")
+        var btn = d.querySelector("#myBtn")
+
+        //Event Handler Wala Tareeqa
+        // btn.onclick = function(){
+        //     div.innerText = "I Am A Div"
+        // }
+
+        // btn.ondblclick = function(){
+        //     div.style.backgroundColor = "red"
+        // }
+
+        // function changeText(){
+        //     div.innerText ="I aM A Div"
+        // }
+
+        // function changeBackground(){
+        //     div.style.backgroundColor = "red"
+        // }
+
+        // function jeet(){
+        //     console.log("esasa")
+        // }
+
+        //Event Listener Wala Tareeqa
+        // btn.addEventListener("click",changeText)
+        // btn.addEventListener("click",function(){
+        //     div.innerText ="I aM A Div"
+        // })
+
+        // btn.addEventListener("click",changeBackground)
+        // btn.addEventListener("dblclick",function(){
+        //     div.style.backgroundColor= "Red"
+        // })
+
+        // btn.addEventListener("click",jeet)
+
+
+        // div.addEventListener("mouseover",function(){
+        //     div.style.display = "none"
+        // })
+
+
+        // div.addEventListener("mouseout",function(){
+        //     div.style.display = "block"
+        // })
+
+
+
+        var input = document.createElement("input")
+        input.type = "text";
+        d.body.append(input)
+        // Form Related Events 
+        // input.addEventListener("focus",function(){
+        //     input.style.backgroundColor ="yellow"
+        // })
+
+        // input.addEventListener("blur",function(){
+        //     input.style.backgroundColor ="white"
+        // })
+
+        //Keyboard Related Events
+        var myNewDiv = document.createElement("div")
+        d.body.append(myNewDiv)
+        // input.addEventListener("keyup",function(){
+        //     console.log(input.value)
+        //     myNewDiv.innerText = this.value;
+        // })
+
+        // input.addEventListener("keydown",function(){
+        //     // console.log(input.value)
+        //     // myNewDiv.innerText = this.value;
+        //     console.log("*")
+        // })
+
+        //     input.addEventListener("keypress",function(){
+        //     // console.log(input.value)
+        //     // myNewDiv.innerText = this.value;
+        //     console.log("*")
+        // })
+
+        // input.addEventListener("input",function(){
+        //     // console.log(input.value)
+        //     // myNewDiv.innerText = this.value;
+        //     console.log("*")
+        // })
+
+        // d.body.style.height= "200vh"
+        // d.body.addEventListener("scroll",function(){
+        //     console.log("Page Scroll Hua")
+        //     // })
+
+
+        //     for(var i=0; i<5; i++){
+        //         var btn = d.createElement("button");
+        //         btn.innerText = "Button "+ i;
+        //         btn.id = "btn"+i
+        //         btn.className= "btns"
+        //         d.body.append(btn)
+        //     }
+
+        //     var btns = d.querySelectorAll(".btns")
+        //     console.log(btns)
+        // //     for(var btn of btns){
+        // //     btn.addEventListener("click",function(){
+        // //         console.log(btn.innerText)
+        // //     })
+        // // }
+
+        //         btns.forEach(function(btnEle){
+        //             btnEle.addEventListener("click",function(){
+        //                 console.log(this.innerText)
+        //             })
+
+        //         })
+
+        //Event Object
+
+        // function myFun(a, b, c) {
+        //     // console.log(arguments)
+        //     // var result = 0;
+        //     // for(var num of arguments){
+        //     //     result+=num
+        //     // }
+
+        //     // console.log(result)
+        //     console.log(a, b, c)
+        // }
+
+        // myFun(1, 2, 3)
+
+        // var button = d.createElement("button");
+        // button.innerText = "Click Me 2 Dynamic";
+        // d.body.append(button)
+
+
+        // function myFun(e) {
+        //     console.log(e)
+        // }
+        // // button.addEventListener("click", myFun)
+        // button.addEventListener("click", function(e){
+        //     console.log(e)
+        // })
+
+
+
+
+
+
+
+
+
+
+
+        // function myFun(a,b,c){
+        //         // console.log(arguments)
+        //         // var result = 0;
+        //         // for(var num of arguments){
+        //         //     result+=num
+        //         // }
+
+        //         // console.log(result)
+        //         console.log(a,b,c)
+        //     }
+
+        //     myFun(1,2,3)
+
+
+            var input = d.createElement("input")
+            input.type="text"
+            d.body.append(input)
+
+            input.addEventListener("keyup",function(e){
+                console.log(e)
+                d.body.append(e.data)
+            })
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
