@@ -1,4 +1,4 @@
-# JavaScript Advance Lecture 2: Arrow Function,Hoisting,Form Handling,Different Keyboard Events To Handle Forms
+# JavaScript Advance Lecture 2: Arrow Function,Event Object,Different Keyboard Events 
 
 ## Topics Covered:
 
