@@ -9,7 +9,7 @@
 5. **What Is Prototype In Javascript And Its Purpose**
 6. **Prototypal Inheritance**
 7. **Prototype Chain**
-
+8. **Prototype Vs __Proto__**
 
 ## Explanations:
 
@@ -72,6 +72,61 @@ Each object in JavaScript has a `[[Prototype]]` property, which points to its pr
 Understanding the prototype chain is essential for working effectively with JavaScript's prototypal inheritance system.
 
 These concepts are fundamental to understanding JavaScript's object-oriented programming model and can greatly enhance your ability to write clean, efficient, and maintainable code.
+
+### 8. Prototype vs __Proto__ :
+
+The concepts of `prototype` and `__proto__` (often referred to as dunder proto) are related but distinct in JavaScript. Let's explore each:
+
+### Prototype:
+
+In JavaScript, every object has a property called `prototype`, which is essentially a reference to another object. This `prototype` object is used as a blueprint for creating new objects through inheritance. When you access a property or method on an object, JavaScript first looks for it on the object itself. If it doesn't find it, it checks the object's prototype, and so on, until it finds the property or reaches the end of the prototype chain.
+
+### Example:
+
+```javascript
+function Person(name) {
+  this.name = name;
+}
+
+Person.prototype.sayHello = function() {
+  console.log(`Hello, my name is ${this.name}`);
+};
+
+const john = new Person('John');
+john.sayHello(); // Output: Hello, my name is John
+```
+
+Here, `Person.prototype` is the prototype object for all instances created with the `Person` constructor function. The `sayHello` method is defined on `Person.prototype`, and `john` inherits this method through the prototype chain.
+
+### \_\_proto\_\_:
+
+The `__proto__` property is an internal property of JavaScript objects that references the object's prototype. It is a non-standard way to access an object's prototype and should be avoided in production code in favor of `Object.getPrototypeOf()` and `Object.setPrototypeOf()` methods.
+
+### Example:
+
+```javascript
+const person = {
+  name: 'John'
+};
+
+const student = {
+  major: 'Computer Science'
+};
+
+// Set student's prototype to person
+student.__proto__ = person;
+
+console.log(student.name); // Output: John
+```
+
+In this example, `student.__proto__` is set to `person`, so `student` inherits the `name` property from `person`.
+
+### Prototype vs. \_\_proto\_\_:
+
+- `prototype` is a property of constructor functions and is used to set up inheritance between objects created by the constructor.
+- `__proto__` is an internal property of all JavaScript objects and is used to access an object's prototype directly.
+
+In summary, while both `prototype` and `__proto__` are related to prototypal inheritance in JavaScript, `prototype` is used to establish inheritance between objects, while `__proto__` is an internal property that provides access to an object's prototype. It's generally recommended to use `prototype` for defining inheritance and `Object.getPrototypeOf()` and `Object.setPrototypeOf()` for working with prototypes directly.
 
 ### Conclusion:
 
