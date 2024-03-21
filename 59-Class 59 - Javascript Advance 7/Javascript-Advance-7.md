@@ -76,7 +76,9 @@ const sum = numbers.reduce((total, current) => total + current, 0);
 console.log(sum); // Output: 15
 ```
 
-Certainly! Method chaining is a technique where multiple array methods are chained together in a single statement to perform a sequence of operations on an array. This allows for more concise and readable code by eliminating the need for intermediate variables and multiple lines of code.
+### 3. Method Chaining
+
+Method chaining is a technique where multiple array methods are chained together in a single statement to perform a sequence of operations on an array. This allows for more concise and readable code by eliminating the need for intermediate variables and multiple lines of code.
 
 Here's an example of method chaining using `map`, `filter`, and `reduce` in JavaScript:
 
