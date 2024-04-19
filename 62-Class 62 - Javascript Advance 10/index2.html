@@ -6,34 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-        <!-- <input type="text" id="name"> -->
-        <!-- <p id="para"></p>
-        <button>
-            click to reload
-        </button> -->
-
-        <form>
-            <input type="text" id="namee" value="jeet">
-            <input type="text" id="pass" value="1234">
-            <button id="btn">Click Me</button>
-        </form>
-
-
-
+    <p id="para"></p>
     <script>
-        let obj={
-            name: namee.value,
-            pass:pass.value
-        }
-        //    console.log(obj.name)
-        //    console.log(obj.pass)
-
-        localStorage.setItem("myData",JSON.stringify(obj))
-
-       btn.addEventListener("click",function(){
-        location.href="./index2.html"
-       }) 
-
+        let jsonObject = localStorage.getItem("myData")
+        console.log(jsonObject)
+        console.log(JSON.parse(jsonObject))
+       let obj2= JSON.parse(jsonObject)
+       para.innerText = obj2.name
     </script>
 </body>
 </html>
