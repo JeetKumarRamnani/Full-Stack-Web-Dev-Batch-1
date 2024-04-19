@@ -4,8 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #bothFieldsError{
+            color:red;
+        }
+    </style>
 </head>
 <body>
+    <!-- <form action="">
+        <input type="text" required>
+        <input type="submit">
+    </form> -->
+
+    <form id="myForm">
+        <input type="text" id="username" placeholder="Username" name="name">
+        <p id="unError"></p>
+
+        <input type="password" id="password" placeholder="Password" name="pass">
+        <p id="pwdError"></p>
+
+        <button type="submit" id="submit">Submit</button>
+
+        <p id="bothFieldsError"></p>
+    </form>
+
+    
+    
+   
+
+   
 
     <script src="script.js"></script>
 </body>
